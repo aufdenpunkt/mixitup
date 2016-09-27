@@ -1835,7 +1835,7 @@
 					} else {
 						return self._$parent[0].children[0];
 					}
-				})();
+				})() || null;
 
 			self._execAction('insert', 0, arguments);
 
